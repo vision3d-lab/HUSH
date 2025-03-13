@@ -11,8 +11,8 @@
     ·
     <a href="https://vision3d-lab.github.io/" rel="external nofollow noopener" target="_blank"><strong>Kyungdon Joo</strong></a>
   </p>
-<p align="center">
-    <a href="https://arxiv.org/pdf/XXXX.XXXXX" rel="external nofollow noopener" target="_blank"><strong>[Paper (TBD)]</strong></a>
-    ·
-    <a href="https://vision3d-lab.github.io/hush/" rel="external nofollow noopener" target="_blank"><strong>[Project page]</strong></a>
-</p>
+
+<div align='center'>
+  <a href='https://arxiv.org/pdf/XXXX.XXXXX'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
+  <a href='https://vision3d-lab.github.io/hush/'><img src='https://img.shields.io/badge/Project-Page-blue'></a>
+</div>
