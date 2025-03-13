@@ -27,9 +27,10 @@ Please refer the Install.md for initial setup and Data.md for the dataset prepar
 
 ## Acknowledgements
 This work is built on several great research works, thanks a lot to all the authors for sharing their works!
-- [AdaBins (CVPR 2021)](https://github.com/shariqfarooq123/AdaBins)
-- [iDisc (CVPR 2023)](https://github.com/SysCV/idisc)
-- [HRDFuse (CVPR 2023)](https://github.com/haoai-1997/HRDFuse)
+- [AdaBins [CVPR 2021]](https://github.com/shariqfarooq123/AdaBins)
+- [iDisc [CVPR 2023]](https://github.com/SysCV/idisc)
+- [HRDFuse [CVPR 2023]](https://github.com/haoai-1997/HRDFuse)
+- [torch-harmonics](https://github.com/NVIDIA/torch-harmonics)
 
 
 ## Citation
