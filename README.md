@@ -19,7 +19,7 @@
 </div>
 
 ## Installation
-Please refer the [INSTALL.md]('./INSTALL.md') for initial setup and [DATA.md]('./DATA.md') for the dataset preparation.
+Please refer the [INSTALL.md](INSTALL.md) for initial setup and [DATA.md](DATA.md) for the dataset preparation.
 
 ## Get started
 **[TBD]**
