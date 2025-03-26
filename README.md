@@ -18,6 +18,9 @@
   <a href='https://github.com/vision3d-lab/HUSH'><img src='https://img.shields.io/badge/Video-E33122?logo=Youtube'></a>
 </div>
 
+## Notice
+Because Jongsung is busy now, the repository will be updated around May. Please stay tuned!
+
 ## Installation
 Please refer the [INSTALL.md](INSTALL.md) for initial setup and [DATA.md](DATA.md) for the dataset preparation.
 
