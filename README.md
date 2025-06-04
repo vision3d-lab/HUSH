@@ -19,7 +19,7 @@
 </div>
 
 ## Notice
-Because Jongsung is busy now, the repository will be updated around May. Please stay tuned!
+Because Jongsung is busy now, the repository will be updated around June. Please stay tuned!
 
 ## Installation
 Please refer the [INSTALL.md](INSTALL.md) for initial setup and [DATA.md](DATA.md) for the dataset preparation.
