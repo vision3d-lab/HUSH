@@ -30,7 +30,6 @@ class HUSH(nn.Module):
         return tuple(decoder_outputs[1:])
 
     def forward(self, x):
-        ''' Feature extraction '''
         encoder_output = self.encoder(x)
         encoder_output = self.invert_encoder_output_order(encoder_output)
 
@@ -38,10 +37,8 @@ class HUSH(nn.Module):
         decoder_output = self.filter_decoder_relevant_resolutions(decoder_output)
         fpn_output = self.filter_decoder_relevant_resolutions(fpn_output)
 
-        ''' Build spherical queries '''
         SH_coeffs = self.SHCE(decoder_output[-1])
         SH_query = torch.einsum("bn, nhw -> bnhw", SH_coeffs, (self.SH_basis).squeeze(0))
         
-        ''' Depth estimation using cross attention '''
         depth, normal = self.SHAM(SH_query, fpn_output)
         return depth, normal
