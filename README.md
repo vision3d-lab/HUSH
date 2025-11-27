@@ -18,6 +18,8 @@
   <a href='https://github.com/vision3d-lab/HUSH'><img src='https://img.shields.io/badge/Video-E33122?logo=Youtube'></a>
 </div>
 
+<br>
+
 This is official PyTorch implementation of **"HUSH: Holistic Panoramic 3D Scene Understanding using Spherical Harmonics"** (CVPR 2025)
 
 
@@ -27,7 +29,8 @@ This is official PyTorch implementation of **"HUSH: Holistic Panoramic 3D Scene 
 3. [Train and Test](#train-and-test)
 4. [Acknowledgements](#acknowledgements)
 5. [BibTeX](#bibtex)
-
+   
+<br>
 
 ## Installation
 Our code is absed on **CUDA 11.1** and **PyTorch 1.10.1**.
@@ -53,6 +56,7 @@ cd models/ops
 bash ./mask.sh
 ```
 
+<br>
 
 ## Dataset Preparation
 Following the prior works, we used three benchmark datasets: **Stanford2D3D**, **Matterport3D**, and **Structured3D**.
@@ -76,9 +80,10 @@ d. **Layout Estimation (optional)**
 &nbsp;&nbsp;&nbsp;&nbsp;Official repository: [MatterportLayout](https://github.com/ericsujw/Matterport3DLayoutAnnotation?tab=readme-ov-file). <br>
 >If you have problems during this process, this [issue](https://github.com/zhigangjiang/LGT-Net/issues/6) will be helpful. 
 
+<br>
 
 ## Train and Test
-- Train & Test on the Matterport3D, and Stdructured3D are also done similar with train & test on the SF2D3D dataset.
+- Train & Test on the Matterport3D and Structured3D are also done similarly with train & test on the SF2D3D dataset.
 ```shell
 python train_sf2d3d.py
 ```
@@ -86,6 +91,7 @@ python train_sf2d3d.py
 python test_sf2d3d.py
 ```
 
+<br>
 
 ## Acknowledgements
 This work is built on several great research works, thanks a lot to all the authors for sharing their works.
@@ -94,6 +100,7 @@ This work is built on several great research works, thanks a lot to all the auth
 - [HRDFuse [CVPR 2023]](https://github.com/haoai-1997/HRDFuse)
 - [torch-harmonics](https://github.com/NVIDIA/torch-harmonics)
 
+<br>
 
 ## BibTeX
 ```bib
