@@ -83,13 +83,11 @@ d. **Layout Estimation (optional)**
 <br>
 
 ## Train and Test
-- Train & Test on the Matterport3D and Structured3D are also done similarly with train & test on the SF2D3D dataset.
+- Train on the Matterport3D and Structured3D are also done similarly with train on the SF2D3D dataset.
 ```shell
 python train_sf2d3d.py
 ```
-```shell
-python test_sf2d3d.py
-```
+- Test could be easily done by implementing validation functions and metric.py file.
 
 <br>
 
