@@ -33,7 +33,7 @@ This is official PyTorch implementation of **"HUSH: Holistic Panoramic 3D Scene 
 <br>
 
 ## Installation
-Our code is absed on **CUDA 11.1** and **PyTorch 1.10.1**.
+Our code is based on **CUDA 11.1** and **PyTorch 1.10.1**.
 
 a. Download the source code:
 ```shell
